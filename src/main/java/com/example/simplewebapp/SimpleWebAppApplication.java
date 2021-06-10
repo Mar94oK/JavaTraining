@@ -23,7 +23,7 @@ public class SimpleWebAppApplication
     {
         return args ->
         {
-            System.out.println("Trolllololo!");
+            System.out.println("Trolllololo! HCheck commiting");
 
             String[] beanNames = ctxt.getBeanDefinitionNames();
             Arrays.sort(beanNames);
